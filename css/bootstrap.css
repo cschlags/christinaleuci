@@ -1152,12 +1152,7 @@ mark,
 .text-muted {
   color: #777;
 }
-.text-primary {
-  color: #428bca;
-}
-a.text-primary:hover {
-  color: #3071a9;
-}
+
 .text-success {
   color: #3c763d;
 }
