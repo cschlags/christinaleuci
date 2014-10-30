@@ -31,14 +31,14 @@ a.active {
 }
 
 a {
-    color: #369efe;
+    color: #000;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #369efe;
+    color: #EE82EE;
 }
 
 h1,
@@ -111,14 +111,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #369efe;
+    border-color: rgba(238,130,238, .6);
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #369efe;
+    background-color: rgba(238,130,238, .6);
 }
 
 .btn-xl:hover,
@@ -126,7 +126,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #369efe;
+    border-color: rgba(238,130,238, .6);
     color: #fff;
     background-color: rgba(000,000, 000, .3);
 }
@@ -152,12 +152,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #369efe;
-    background-color: #369efe;
+    border-color: rgba(238,130,238, .6);
+    background-color: rgba(238,130,238, .6);
 }
 
 .btn-xl .badge {
-    color: #369efe;
+    color: rgba(238,130,238, .6);
     background-color: #fff;
 }
 
@@ -168,7 +168,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #369efe;
+    color: #fff;
+    font-weight: 900;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -202,6 +203,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+    font-size: 1em;
 }
 
 .navbar-default .nav li a:hover,
@@ -213,13 +215,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(54,158,254,.5);
+    background-color: rgba(238,130,238,.5);
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: rgba(238,130,238,.3);
 }
 
 @media(min-width:768px) {
@@ -233,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -250,14 +252,16 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: #fff;
     }
+
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -485,7 +489,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FF6666;
 }
 
 .timeline>li .timeline-image h4 {
@@ -750,7 +754,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #EE82EE;
 }
 
 .btn:focus,
